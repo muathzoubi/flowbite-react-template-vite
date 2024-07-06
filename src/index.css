@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.mode {
+  position: absolute;
+  top: 10%;
+  right: auto;
+  left: auto;
+}
+main {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  color: rgb(138, 141, 143);
+}
