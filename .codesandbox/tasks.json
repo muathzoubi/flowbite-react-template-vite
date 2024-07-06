@@ -12,42 +12,38 @@
     "dev": {
       "name": "dev",
       "command": "npm run dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 5174
+      }
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "preview": {
       "name": "preview",
-      "command": "npm run preview",
-      "runAtStart": false
+      "command": "npm run preview"
     },
     "format": {
       "name": "format",
-      "command": "npm run format",
-      "runAtStart": false
+      "command": "npm run format"
     },
     "format:check": {
       "name": "format:check",
-      "command": "npm run format:check",
-      "runAtStart": false
+      "command": "npm run format:check"
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint",
-      "runAtStart": false
+      "command": "npm run lint"
     },
     "lint:fix": {
       "name": "lint:fix",
-      "command": "npm run lint:fix",
-      "runAtStart": false
+      "command": "npm run lint:fix"
     },
     "typecheck": {
       "name": "typecheck",
-      "command": "npm run typecheck",
-      "runAtStart": false
+      "command": "npm run typecheck"
     }
   }
 }
