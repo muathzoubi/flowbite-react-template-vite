@@ -28,7 +28,7 @@ function App() {
           >
             سوف يتم تحويلك للموقع خلال 7 ثواني او اضغط على زر الأنتقال{' '}
           </h1>
-          <a href="#" className="countdown">
+          <a href="https://www.newlife-nosmoke.store/" className="countdown">
             <Button outline gradientDuoTone="purpleToBlue">
               الانتقال للموقع
             </Button>
